@@ -1,0 +1,33 @@
+[global_config]
+  focus = system
+  title_inactive_bg_color = "#657b83"
+  title_transmit_bg_color = "#c18c8b"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = Base16 Solarized Dark
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_color = "#002b36"
+    background_image = None
+    copy_on_selection = True
+    cursor_color = "#93a1a1"
+    foreground_color = "#93a1a1"
+    palette = "#002b36:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#93a1a1:#657b83:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#fdf6e3"
+    show_titlebar = False
+  [[Base16 Solarized Dark]]
+    allow_bold = False
+    background_color = "#002b36"
+    background_image = None
+    copy_on_selection = True
+    cursor_color = "#93a1a1"
+    foreground_color = "#93a1a1"
+    palette = "#002b36:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#93a1a1:#657b83:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#fdf6e3"
